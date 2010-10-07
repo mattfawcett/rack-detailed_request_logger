@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-detailed_request_logger"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Log requests to your rack app along with the raw post data}
+    gem.description = %Q{og requests to your rack app along with the raw post data}
     gem.email = "mail@matthewfawcett.co.uk"
     gem.homepage = "http://github.com/mattfawcett/rack-detailed_request_logger"
     gem.authors = ["Matt Fawcett"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
