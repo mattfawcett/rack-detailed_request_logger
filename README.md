@@ -2,6 +2,10 @@ rack-detailed_request_logger
 ============================
 * Logs requests to your RACK app's recording the raw POST, PUT data etc
 
+Install
+-------
+    gem install rack-detailed_request_logger
+
 Usage
 -----
      require "rack/detailed_request_logger"
