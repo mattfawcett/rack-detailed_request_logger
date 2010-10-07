@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-detailed_request_logger"
     gem.summary = %Q{Log requests to your rack app along with the raw post data}
-    gem.description = %Q{og requests to your rack app along with the raw post data}
+    gem.description = %Q{Log requests to your rack app along with the raw post data}
     gem.email = "mail@matthewfawcett.co.uk"
     gem.homepage = "http://github.com/mattfawcett/rack-detailed_request_logger"
     gem.authors = ["Matt Fawcett"]
