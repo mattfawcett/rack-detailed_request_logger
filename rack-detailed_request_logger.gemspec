@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rack-detailed_request_logger}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Fawcett"]
   s.date = %q{2010-10-07}
-  s.description = %q{og requests to your rack app along with the raw post data}
+  s.description = %q{Log requests to your rack app along with the raw post data}
   s.email = %q{mail@matthewfawcett.co.uk}
   s.extra_rdoc_files = [
     "LICENSE",
